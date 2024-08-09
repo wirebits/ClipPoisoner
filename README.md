@@ -8,6 +8,11 @@ A Web tool that generates infected HTML pages for pastejacking.
 - Inject Button - Inject the malicious text with cover text and generate infected HTML files and generate download link of that file.
 - Reset Button - Clear all text from both windows.
 
+# Note
+Don't use bulky HTML files.<br>
+Use text based HTML pages only.<br>
+Like Documentations, Manuals etc. 
+
 # OS Support
 - Windows 10
 - Windows 11
