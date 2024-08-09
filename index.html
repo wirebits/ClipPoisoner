@@ -1,0 +1,28 @@
+<!-- HTML File for ClipPoisoner-->
+<!-- Author - WireBits-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+    <title>ClipPoisoner</title>
+</head>
+<body>
+    <div class="container">
+        <div class="title">ClipPoisoner</div>
+        <div class="textareas-container">
+            <textarea id="htmlArea" class="textarea" placeholder="HTML Code"></textarea>
+            <textarea id="maliciousArea" class="textarea" placeholder="Enter Malicious Text"></textarea>
+        </div>
+        <div class="buttons">
+			<button class="upload" onclick="triggerFileInput()">Upload</button>
+            <input type="file" id="fileInput" onchange="handleFileSelect(event)" accept=".html">
+            <button class="inject" onclick="injectAndDownload()">Inject</button>
+            <button class="reset" onclick="resetTextArea()">Reset</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
