@@ -9,9 +9,10 @@ A Web tool that generates infected HTML pages for pastejacking.
 - Reset Button - Clear all text from both windows.
 
 # Note
-Don't use bulky HTML files.<br>
-Use text based HTML pages only.<br>
-Like Documentations, Manuals etc. 
+Long HTML files takes some time to inject and download.<br>
+So have some patience.<br>
+It is not loaded as normal HTML page instaed the source code is shown.<br>
+But functionality of the code remains unaffected.
 
 # OS Support
 - Windows 10
